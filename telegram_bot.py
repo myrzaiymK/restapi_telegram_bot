@@ -8,7 +8,7 @@ from django.conf import settings
 os.environ['DJANGO_SETTINGS_MODULE'] = 'telegram_bot_project.settings'
 django.setup()
 
-bot = telebot.TeleBot('6449248311:AAH5Pjm81R6DfbEm63IffBO0rOXujOt1_Yk')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['start'])
 def start(message):
